@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тарифы — Медиа Помощник</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
+line-height:1.6;color:#222;background:#fafafa;padding:24px 16px}
+.wrap{max-width:720px;margin:0 auto;background:#fff;border-radius:12px;padding:32px 24px;
+box-shadow:0 1px 4px rgba(0,0,0,.06)}
+h1{font-size:1.5rem;margin-bottom:8px;color:#111;text-align:center}
+.subtitle{text-align:center;font-size:.95rem;color:#555;margin-bottom:24px}
+h2{font-size:1.15rem;margin:24px 0 8px;color:#333}
+h3{font-size:1.05rem;margin:16px 0 6px;color:#444}
+p,ul,ol{margin-bottom:12px;font-size:.95rem;color:#444}
+ul,ol{padding-left:1.4em}
+.updated{font-size:.8rem;color:#999;margin-top:24px;text-align:center}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+.plan-card{
+  background:#f5f7fa;
+  border-radius:10px;
+  padding:20px;
+  margin-bottom:12px;
+}
+.plan-card.free{border-left:4px solid #22c55e}
+.plan-card.trial{border-left:4px solid #f59e0b}
+.plan-card.popular{border-left:4px solid #3b82f6;position:relative}
+.plan-card.best{border-left:4px solid #8b5cf6;position:relative}
+.plan-card.referral{border-left:4px solid #ec4899}
+.plan-price{
+  font-size:1.4rem;
+  font-weight:700;
+  color:#111;
+  margin:4px 0 8px;
+}
+.badge{
+  display:inline-block;
+  background:#3b82f6;
+  color:#fff;
+  font-size:.75rem;
+  font-weight:600;
+  padding:2px 10px;
+  border-radius:12px;
+  margin-bottom:8px;
+}
+.plan-card.best .badge{background:#8b5cf6}
+.plans-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:12px;
+  margin:12px 0 24px;
+}
+.plans-grid .plan-card{margin-bottom:0}
+ul{list-style:disc;padding-left:1.4em}
+ul li{margin-bottom:4px}
+.footnote{
+  margin-top:32px;
+  padding:12px 16px;
+  background:#f9fafb;
+  border-radius:8px;
+  font-size:.82rem;
+  color:#888;
+  line-height:1.5;
+}
+.footnote p{margin-bottom:0;color:#888;font-size:.82rem}
+@media(max-width:480px){
+  .wrap{padding:20px 16px;border-radius:0;box-shadow:none}
+  h1{font-size:1.3rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Тарифы Медиа Помощника</h1>
+  <p class="subtitle">Обрабатывайте фото, видео, PDF и документы прямо в Telegram</p>
+
+  <div class="plan-card free">
+    <h2>🆓 Бесплатный</h2>
+    <p class="plan-price">0 ₽</p>
+    <ul>
+      <li>3 операции в день</li>
+      <li>Файлы до 20 МБ</li>
+      <li>Все основные функции доступны</li>
+      <li>Водяные знаки на фото и видео</li>
+      <li>Очередь на обработку</li>
+    </ul>
+  </div>
+
+  <div class="plan-card trial">
+    <h2>🎁 Пробный период</h2>
+    <p class="plan-price">7 дней бесплатно</p>
+    <ul>
+      <li>30 операций в день</li>
+      <li>Файлы до 20 МБ</li>
+      <li>Активируется при первом использовании</li>
+    </ul>
+  </div>
+
+  <h2>📅 Подписки</h2>
+  <p>Полный доступ, файлы до 2 ГБ. Оплата разовая — без привязки карты, без автосписаний.</p>
+
+  <div class="plans-grid">
+    <div class="plan-card">
+      <h3>1 день</h3>
+      <p class="plan-price">49 ₽</p>
+      <ul>
+        <li>Безлимит операций</li>
+        <li>Файлы до 2 ГБ</li>
+      </ul>
+    </div>
+
+    <div class="plan-card">
+      <h3>1 месяц</h3>
+      <p class="plan-price">149 ₽</p>
+      <ul>
+        <li>50 операций в день</li>
+        <li>Файлы до 2 ГБ</li>
+      </ul>
+    </div>
+
+    <div class="plan-card popular">
+      <span class="badge">Популярный</span>
+      <h3>3 месяца</h3>
+      <p class="plan-price">349 ₽</p>
+      <ul>
+        <li>50 операций в день</li>
+        <li>Файлы до 2 ГБ</li>
+        <li>Приоритетная обработка</li>
+      </ul>
+    </div>
+
+    <div class="plan-card">
+      <h3>6 месяцев</h3>
+      <p class="plan-price">599 ₽</p>
+      <ul>
+        <li>100 операций в день</li>
+        <li>Файлы до 2 ГБ</li>
+        <li>Приоритетная обработка</li>
+      </ul>
+    </div>
+
+    <div class="plan-card best">
+      <span class="badge">Лучшая цена</span>
+      <h3>12 месяцев</h3>
+      <p class="plan-price">999 ₽</p>
+      <ul>
+        <li>Безлимит операций</li>
+        <li>Файлы до 2 ГБ</li>
+        <li>Приоритетная обработка</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>📦 Пакеты операций</h2>
+  <p>Разовая покупка — операции не сгорают, расходуются по одной.</p>
+
+  <div class="plans-grid">
+    <div class="plan-card">
+      <h3>Быстрая операция</h3>
+      <p class="plan-price">29 ₽</p>
+      <ul>
+        <li>1 операция</li>
+      </ul>
+    </div>
+
+    <div class="plan-card">
+      <h3>Пакет 25</h3>
+      <p class="plan-price">199 ₽</p>
+      <ul>
+        <li>25 операций</li>
+        <li>Выгоднее на 30%</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>👥 Реферальная программа</h2>
+  <div class="plan-card referral">
+    <ul>
+      <li>Пригласи друга — получи 5 бонусных операций</li>
+      <li>Максимум 50 приглашений (до 250 операций)</li>
+      <li>Бонусы используются после исчерпания дневного лимита</li>
+      <li>Команда в боте: /referral</li>
+    </ul>
+  </div>
+
+  <h2>💳 Способы оплаты</h2>
+  <ul>
+    <li>Банковская карта через Робокассу (Visa, MasterCard, МИР)</li>
+    <li>Telegram Stars</li>
+  </ul>
+  <p>Оплата разовая, автосписаний нет. Возврат — по условиям <a href="/legal/oferta">оферты</a>.</p>
+
+  <h2>🛒 Как купить</h2>
+  <p>В боте нажмите кнопку <strong>«Тарифы/Оплата»</strong> или отправьте команду /premium.</p>
+
+  <p class="updated">Дата обновления: 15 февраля 2026</p>
+
+  <hr style="margin:32px 0 20px;border:none;border-top:1px solid #e5e7eb">
+
+  <div style="font-size:.85rem;color:#666;line-height:1.7">
+    <p><strong>Контакты:</strong> <a href="mailto:ankozar@yandex.ru">ankozar@yandex.ru</a> | <a href="tel:+79123922827">+7 912 392-28-27</a></p>
+    <p><strong>Продавец:</strong> самозанятый Козлов Артём Анатольевич, ИНН 781432458978</p>
+    <p><a href="/legal/oferta">Оферта</a> · <a href="/legal/privacy">Политика конфиденциальности</a></p>
+  </div>
+
+</div>
+</body>
+</html>
